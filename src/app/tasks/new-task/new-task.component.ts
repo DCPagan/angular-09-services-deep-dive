@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 export class NewTaskComponent {
   private formEl = viewChild<ElementRef<HTMLFormElement>>('form');
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   onAddTask(title: string, description: string) {
     this.formEl()?.nativeElement.reset();
   }

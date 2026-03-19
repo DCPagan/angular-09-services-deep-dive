@@ -36,6 +36,7 @@ export class TaskItemComponent {
         newStatus = 'IN_PROGRESS';
         break;
       case 'done':
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         newStatus = 'DONE';
         break;
       default:
